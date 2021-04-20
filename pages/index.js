@@ -11,8 +11,8 @@ export default function Index() {
         <Typography variant="h4" component="h1" gutterBottom>
           Xstate Workshop Demo
         </Typography>
-        <Link href="/demo/1" color="primary">
-          demo 1
+        <Link href="/toggle" color="primary">
+          toggle example
         </Link>
       </Box>
     </Container>
