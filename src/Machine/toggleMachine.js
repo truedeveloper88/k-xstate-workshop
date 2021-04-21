@@ -1,6 +1,6 @@
-import { Machine } from 'xstate'
+import { createMachine } from 'xstate'
 
-const toggleMachine = Machine({
+const toggleMachine = createMachine({
   initial: 'inactive',
   states: {
     active: {

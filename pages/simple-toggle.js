@@ -2,10 +2,10 @@ import React from 'react'
 import { useMachine } from '@xstate/react'
 
 import toggleMachine from '../src/Machine/toggleMachine'
-import SimpleCard from '../src/SimpleCard'
 import CheckIcon from '@material-ui/icons/Check'
 import ToggleButton from '@material-ui/lab/ToggleButton'
 import Typography from '@material-ui/core/Typography'
+import SimpleCard from '../src/SimpleCard'
 
 export default function SimpleToggle() {
   const [state, send] = useMachine(toggleMachine)
